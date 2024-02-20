@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+    <style>
+        #img1,
+        #img2,
+        #img3 {
+            height: 100vh;
+            width: 33.3vw;
+            object-fit: cover;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: right;
+        }
+
+        .box {
+            margin-left: 300px;
+            background-color: black;
+            padding: 10px;
+            width: 160px;
+            font-weight: 500;
+            font-size: 20px;
+            font-weight: 700;
+
+        }
+
+        .arrow-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* Style for the arrow icon */
+        .arrow-icon {
+            width: 100%;
+            height: 100%;
+            fill: white;
+            /* Change color as needed */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="topvideo">
+
+        <div>
+            <img id="logo2" src="./assects/image.png" width="230px" height="50px">
+
+        </div>
+
+        <div id="topnav">
+            <button id="aboutdlc" class="transparent-button" onclick="redirectToIndex2()">About DLC</button>
+            <button id="ourworld" class="transparent-button" onclick="redirectToIndex3()">Our Worlds</button>
+            <button id="experiences" class="transparent-button" onclick="redirectToIndex4()">Experiences</button>
+            <button id="company" class="transparent-button">Company</button>
+            <button id="gallery" class="transparent-button">Gallery</button>
+            <button id="press" class="transparent-button">Press</button>
+            <button id="drop" class="transparent-button">Dropdown</button>
+        </div>
+        <div id="mytext">Discover <br>
+            <spam id="yourworld">your world</spam>
+        </div>
+    </div>
+
+    <div id="middiv">
+
+        <div id="middivhalf">
+
+            <div id="second">
+                <div id="paragraph">
+
+                    <p>
+                        <spam id="welcome">Welcome to</spam>
+                        <br>
+                        <spam id="world">Our World</spam><br>
+                        <spam id="welcome2">
+                            Discover the unique atmosphere of our private residential club communities.
+                            Once experienced. Never forgotten. This is classic, comfortable,
+                            modern living in nature's most spectacular settings worldwide. Reassuringly exclusive.
+                            Generously welcoming. Find your unique world - a place where families love to be;
+                            creating unforgettable moments, together.</spam>
+                    </p>
+                </div>
+
+                <div id="middivimg">
+                    <img src="./assects/div2img.png" id="imgid">
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <img id="sunrisediv2" src="./assects/0001.jpeg">
+        </div>
+    </div>
+    <div id="thirddiv">
+
+        <div id="explore">
+            <h1>
+                <spam>Explore</spam><br>
+                <spam>Our Worlds</spam>
+            </h1>
+        </div>
+        <div class="arrow">
+            <nav class="c-locations-btns">
+                <button type="button" class="c-locations-btn | js-slider-nav__btn--prev js-next" aria-label="Previous">
+                    <div class="c-locations-btn__inner">
+                        <div class="c-locations-btn__arr"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 28.06 20.91">
+                                <path
+                                    d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z">
+                                </path>
+                            </svg></div>
+                    </div>
+                </button>
+                <button type="button" class="c-locations-btn | js-slider-nav__btn--next js-prev" aria-label="Next">
+                    <div class="c-locations-btn__inner --next">
+                        <div class="c-locations-btn__arr"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 28.06 20.91">
+                                <path
+                                    d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z">
+                                </path>
+                            </svg></div>
+                    </div>
+                </button>
+            </nav>
+        </div>
+        <div class="back4">
+            <marquee>
+                <img src="./assects/0001.jpeg" id="slide" width="400px" height="500px">
+                <img src="./assects/002.jpeg" width="400px" height="500px">
+                <img src="./assects/003.jpeg" width="400px" height="500px">
+                <img src="./assects/004.jpeg" width="400px" height="500px">
+                <img src="./assects/discovery-land-company-logos-idoaCYq3pl-removebg-preview.png" width="400px"
+                    height="500px">
+                <img src="./assects/005.jpeg" width="400px" height="500px">
+                <img src="./assects/006.jpeg" width="400px" height="500px">
+                <img src="./assects/007.jpeg" width="400px" height="500px">
+                <img src="./assects/008.jpeg" width="400px" height="500px">
+                <img src="./assects/009.jpeg" width="400px" height="500px">
+                <img src="./assects/0010.jpeg" width="400px" height="500px">
+            </marquee>
+        </div>
+
+
+    </div>
+
+    <div>
+
+        <div id="fourth">
+            <div id="del">
+                <spam id="landsof">Lands of</spam><br>
+                <spam id="discoveryland"> Discovery</spam>
+            </div>
+            <div id="paracontent">
+                <p id="contentt">
+                    A world from the day-to day. You escape. Your haven.Your World.
+                    Explore the map below and take a journey to our communites.
+                </p>
+            </div>
+            <p id="scroll">
+                Scroll down
+            </p>
+        </div>
+        <div class="" id="earthvideo">
+            <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                <source src="./assects/InShot_20240215_140129114.mp4" type="video/mp4">
+            </video>
+            <div id="sideearth">
+                <div class="left-side">
+                    <i class="ri-arrow-left-fill" width="3vw"></i>
+                </div>
+                <div class="right-side">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="last">
+            <div class="column">
+                <div class="content" id="img1" style="position: relative;">
+                    <p>
+                    <h1>The text here is the sample text</h1>
+
+                    <button class="arrow-button" style="left: 10px;">
+                        <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+                            <circle cx="12" cy="12" r="10" fill="transparent" stroke="white" stroke-width="2" />
+
+                            <path d="M8 5v14l11-7z" fill="currentColor" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </button>
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content" id="img2" style="position: relative;">
+                    <p>Text here</p>
+
+                    <button class="arrow-button" style="right: 10px;">
+                        <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+                            <circle cx="12" cy="12" r="10" fill="transparent" stroke="white" stroke-width="2" />
+
+                            <path d="M8 5v14l11-7z" fill="currentColor" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content" id="img3" style="position: relative;">
+                    <p>Text here</p>
+
+                    <button class="arrow-button" style="left: 10px;" id="lastarrowarrow">
+                        <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+                            <circle cx="12" cy="12" r="10" fill="transparent" stroke="white" stroke-width="2" />
+                            <!-- Right arrow inside the circle -->
+                            <path d="M8 5v14l11-7z" fill="currentColor" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+
+            <img src="./assects/ii.png" id="lastlogo" width="55px">
+
+            <div class="container">
+                <div class="box">
+                    <p>GET IN TOUCH</p>
+                    <p>(480) 624-5200</p>
+                    <p>mail@discoverylandco.com</p>
+                    <p>REAL ESTATE</p>
+                    <p>realestate@discoverylandco.com</p>
+                </div>
+                <div class="box">
+                    <p>About DLC</p>
+                    <p>Our Worlds</p>
+                    <p>Experiences</p>
+                    <p>Company</p>
+                    <p>Gallery</p>
+                    <p>Press</p>
+                </div>
+                <div class="box">
+                    <p>Careers</p>
+                    <p>Foundation</p>
+                    <p>Company</p>
+                    <p>Contact</p>
+                    <p>Privacy</p>
+                </div>
+            </div>
+
+            <div id="lastdiv">
+                @Discovey Land Cmpany. All rights reserved.
+            </div>
+            <div id="outpost">
+                site by outpost
+            </div>
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="sample.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+/* Complete CSS for Responsive Webpage */
+
+/* Base Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.topdiv{
+    padding-bottom: 30px;
+    margin-bottom: 10%;
+}
+
+/* Navigation Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav .logo {
+    width: 220px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Main Content Styles
+#mid {
+    margin-top: 80px;
+    padding: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.image-with-description {
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.image-with-description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-with-description p {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px 5%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+#lastdiv {
+    margin-top: 20px;
+}
+
+#outpost {
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 20px 5%;
+    }
+
+    nav .logo {
+        width: 100px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    #mid {
+        margin-top: 60px;
+    }
+
+    .image-with-description {
+        flex: 0 0 45%;
+        margin-bottom: 20px;
+    }
+
+    #footer .container {
+        flex-direction: column;
+    }
+
+    #lastdiv {
+        margin-top: 10px;
+    }
+}
